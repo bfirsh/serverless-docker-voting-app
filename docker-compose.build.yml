@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  vote:
+    build: ./vote
+    image: bfirsh/serverless-vote
+
+  result:
+    build: ./result
+    image: bfirsh/serverless-result
+
+  record-vote-task:
+    build: ./record-vote-task
+    image: bfirsh/serverless-record-vote-task

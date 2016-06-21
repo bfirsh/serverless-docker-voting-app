@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  entrypoint:
+    build: entrypoint
+    ports:
+      - 80:80
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
+  db:
+    image: postgres:9.4
