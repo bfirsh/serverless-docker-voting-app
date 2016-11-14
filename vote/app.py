@@ -11,7 +11,7 @@ hostname = socket.gethostname()
 
 app = Flask(__name__)
 
-client = dockerrun.from_env()
+client = dockerrun.from_env(version="1.24")
 
 @app.route("/", methods=['POST','GET'])
 def hello():
