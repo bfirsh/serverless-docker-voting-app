@@ -16,4 +16,4 @@ Run in this directory:
 
     $ make
 
-The app will be running at http://localhost/vote/ and http://localhost/result/
+The app will be running at http://localhost/vote/ and http://localhost/result/ click links to continue..
